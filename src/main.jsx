@@ -4,13 +4,12 @@ import App from './App'
 import Button from './components/Button'
 import Table from './components/Table'
 import Image from './components/views/Image'
+import Data from './components/Data'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-    <Button />
-    <Table />
-    <Image />
+    <Data />
   </React.StrictMode>,
 )
