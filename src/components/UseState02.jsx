@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default function UseState02() {
+export default function UseState03() {
      const [value, setValue] = useState(0)
 
      function increment_value(num) {
