@@ -6,12 +6,12 @@ export default function Caps() {
      {
        id: 0,
        title: "Jean-luc Picard",
-       article: "Engage"
+       article: "Make it so."
      },
      {
        id:1,
        title: "James T. Kirk",
-       article: "Beam me up, Scotty"
+       article: "I don't believe in the no-win scenario."
      },
      {
        id:2,
