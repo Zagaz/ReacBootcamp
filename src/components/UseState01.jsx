@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export default function UseState01() {
+export default function UseState02() {
      const [value, setValue] = useState(0)
 
      function increment() {
@@ -15,7 +15,7 @@ export default function UseState01() {
 
      return (
           <>
-               <h1>useState</h1>
+               <h1>useState01</h1>
                <h3>Value: {value}</h3>
                <button onClick={increment}>ADD</button>
                <button onClick={decrement}>SUB</button>
