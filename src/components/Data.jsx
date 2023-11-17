@@ -4,16 +4,16 @@ export default function Data() {
           name: "André",
           email: "andre@mail.com"
      }
-     function pythagoras(a,b){
+     function pythagoras(a, b) {
           return (
-               Math.sqrt(a*a + b*b)
+               Math.sqrt(a * a + b * b)
           )
      }
      return (
           <>
-               <p>Nome:{name}</p>
+               <h3>Nome:{name}</h3>
                <p>Email:{client.email}</p>
-               <p>Pythagoras: {pythagoras(3,4)}</p>
+               <p className="pythagoras">Pythagoras: {pythagoras(3, 4)}</p>
           </>
      )
 }
