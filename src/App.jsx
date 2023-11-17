@@ -2,20 +2,45 @@
 import Article from './components/Article'
 
 
-export default  function App() {
+export default function App() {
+  // An array of objects with the properties id, title and article od Startrek captains.
   let articles = [
-    {title : "Title 1",
-    article : "Article 1"},
-    {title : "Title 2",
-    article : "Article 2"},
+    {
+      id: 0,
+      title: "Jean-luc Picard",
+      article: "Engage"
+    },
+    {
+      id:1,
+      title: "James T. Kirk",
+      article: "Beam me up, Scotty"
+    },
+    {
+      id:2,
+      title: "Benjamin Sisko",
+      article: "It's real"
+    },
+    {
+      id:3,
+      title: "Kathryn Janeway",
+      article: "There's coffee in that nebula"
+    },
+    {
+      id:4,
+      title: "Jonathan Archer",
+      article: "I'm Jonathan Archer"
+    }
 
   ]
+
+  let content =  articles.map((article, id) => (
+    <Article key={id} title={article.title} article={article.article} />
+  ))
+
   return (
     <>
-    <h1>Articles</h1>
-    {articles.map((article, index) => (
-      <Article key={index} title={article.title} article={article.article} />
-    ))}
+      <h1>Star Trek Captains</h1>
+      {content}
     </>
   )
 
