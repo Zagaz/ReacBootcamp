@@ -1,20 +1,19 @@
-*{
-    margin : 0;
-    padding : 0;
-    box-sizing : border-box;
-    font-family: 'Poppins', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-
-h3{
-     color : red;
+h3 {
+  color: red;
 }
 
-.pythagoras{
-     padding : 5px;
-     color: white;
-     background : black;
-     display : flex;
-     justify-content : flex-start;
-     align-items : center;
-}
+.pythagoras {
+  padding: 5px;
+  color: white;
+  background: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}/*# sourceMappingURL=App.css.map */

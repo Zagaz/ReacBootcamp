@@ -1,12 +1,9 @@
-export default function Article(props) {
-
+export default function Article({ title, article }) {
      return (
           <>
-          <h3>
-              { props.title}
-          </h3>
-          <p>{props.article}</p>
-          <br />    
+               <h3>{title}</h3>
+               <p>{article}</p>
+               <br />
           </>
      )
 } 
