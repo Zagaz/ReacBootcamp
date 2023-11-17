@@ -7,11 +7,13 @@ import App from './App'
 
 //import Data from './components/Data'
 import './App.css'
+import Caps from './components/Caps'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
+    <Caps />
 
 
 
