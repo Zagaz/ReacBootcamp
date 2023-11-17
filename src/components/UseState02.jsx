@@ -16,8 +16,6 @@ export default function UseState02() {
                <h3>Value: {value}</h3>
                <button onClick={() => increment_value(10)}>ADD</button>
                <button onClick={() => decrement_value(10)}>SUB</button>
-
-
           </>
      )
 
