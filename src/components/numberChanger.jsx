@@ -24,15 +24,15 @@ export default function number({ number }) {
 
      return (
           <>
-          <h1>Calculate: {number} </h1>
-          <h3>Total: {n}</h3>
-          <button onClick={add(number)} >+{number}</button>
-          <button onClick={sub(number)} >-{number}</button>
-          <button onClick={clear(number)} >Clear</button>
-          <br />
-          <hr />
-          <br />
+               <h1>Calculate: {number} </h1>
+               <h3>Total: {n}</h3>
+               <button onClick={add(number)} >+{number}</button>
+               <button onClick={sub(number)} >-{number}</button>
+               <button onClick={clear(number)} >Clear</button>
+               <br />
+               <hr />
+               <br />
           </>
-        
+
      )
 }
