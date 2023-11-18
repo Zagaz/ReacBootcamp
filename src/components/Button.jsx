@@ -1,7 +1,15 @@
-export default function Button() {
+import React from 'react';
+
+
+export default function Button({
+     description,
+     calc
+}
+     
+) {
      return (
-     <>
-          <button>Click me!</button>
-     </>
+          <button onClick={calc}>{description}</button>
      )
 }
+
+// Path: src/components/UseState05.jsx
