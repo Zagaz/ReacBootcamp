@@ -13,10 +13,7 @@ import Caps from './components/Caps'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-    <Caps />
-
-
-
+    {/* <Caps /> */}
 
   </React.StrictMode>,
 )
