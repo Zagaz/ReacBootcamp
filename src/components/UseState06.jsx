@@ -49,6 +49,14 @@ export default function UseState06() {
      return (
           <>
                <h1> Trigonometry</h1>
+               <h3>DISCLAIMER</h3>
+               <p>   <strong>Sorry, Pythagoras!!!</strong>  <br />
+ So, there's no such a thing as a triangle with 0 degrees
+ or a negative side. <br />
+ This is just an example of how to use useState.  <br />
+ The exercise is to make the buttons work as expected. <br />
+ <h3>END OF DISCLAIMER </h3>
+               </p>
                <h2> Cathetus A = : {a}  </h2>
                <h2> Cathetus B = : {b}  </h2>
                <h2> Hypotenuse = : {h}  </h2>
