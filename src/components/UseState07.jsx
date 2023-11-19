@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Button from "./Button";
-import "./UseState06.css";
+import "./style.css";
 
 
 

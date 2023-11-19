@@ -1,0 +1,106 @@
+.btn {
+     background-color: whitesmoke;
+     padding: 5px;
+     width: 100px;
+     height: 30px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: large;
+     margin-right: 10px;
+   
+     &.red {
+       background: #ff9999;
+       color: rgb(40, 7, 71);
+     }
+   
+     &.reset {
+       background: #9c1f1f;
+       color: rgb(255, 255, 255);
+     }
+   
+     &.blue {
+       background: #0000ff;
+       color: white;
+     }
+   
+     &.orange {
+       background: rgb(231, 155, 14);
+       color: rgb(18, 1, 1);
+     }
+   
+     &.grey {
+       background: grey;
+       color: white;
+     }
+   
+     &.green {
+       background: #00ff00;
+       color: black;
+     }
+   
+     &.yellow {
+       background: yellow;
+       color: black;
+     }
+   }
+   
+   .catetus {
+     display: flex;
+     align-items: center;
+   
+     h3 {
+       color: black;
+   
+       strong {
+         color: red;
+       }
+     }
+   
+     .catetusbt {
+       margin-left: 25px;
+       display: flex;
+       flex-direction: row;
+       justify-content: flex-start;
+     }
+   }
+   
+   .wrap {
+     background-color: whitesmoke;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding: 10px;
+     margin: 10px;
+     display: flex;
+     flex-wrap: nowrap;
+     flex-direction: row;
+   }
+   
+   .reset {
+     background-color: whitesmoke;
+     margin: 10px;
+     padding: 10px;
+     width: 80px;
+     font-size: medium;
+   }
+   
+   .resetwrap {
+     background-color: whitesmoke;
+     display: flex;
+     justify-content: center;
+   }
+   
+   span {
+     &.first {
+       color: green;
+     }
+   
+     &.second {
+       color: orange;
+     }
+   
+     &.third {
+       color: red;
+     }
+   }
+   

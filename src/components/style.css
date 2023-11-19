@@ -61,7 +61,7 @@
   border-radius: 5px;
   padding: 10px;
   margin: 10px;
-  display: flexbox;
+  display: flex;
   flex-wrap: nowrap;
   flex-direction: row;
 }
@@ -88,4 +88,4 @@ span.second {
 }
 span.third {
   color: red;
-}/*# sourceMappingURL=UseState06.css.map */
+}/*# sourceMappingURL=style.css.map */
