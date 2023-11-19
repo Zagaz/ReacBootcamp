@@ -1,7 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import Cathetus from "./Cathetus";
-import "./UseState05.css";
+ import "./UseState06.css";
+
 
 // exercise 4
 // DISCLAIMER

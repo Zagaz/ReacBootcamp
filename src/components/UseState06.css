@@ -36,7 +36,7 @@
 
 .catetus {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 .catetus .catetusbt {
   margin-left: 25px;
@@ -68,4 +68,4 @@
   background-color: whitesmoke;
   display: flex;
   justify-content: center;
-}/*# sourceMappingURL=UseState05.css.map */
+}/*# sourceMappingURL=UseState06.css.map */
