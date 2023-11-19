@@ -38,6 +38,12 @@
   display: flex;
   align-items: center;
 }
+.catetus h3 {
+  color: black;
+}
+.catetus h3 strong {
+  color: red;
+}
 .catetus .catetusbt {
   margin-left: 25px;
   display: flex;
@@ -68,4 +74,4 @@
   background-color: whitesmoke;
   display: flex;
   justify-content: center;
-}/*# sourceMappingURL=UseState06.css.map */
+} /*# sourceMappingURL=UseState06.css.map */

@@ -37,7 +37,7 @@
      }
 
      .green {
-          
+
           background:  #00ff00;
           color: black;
      }
@@ -47,6 +47,12 @@
 
      display: flex;
      align-items: center;
+     h3{
+          color: black;
+          strong{
+               color: red;
+          }
+     }
 
      .catetusbt {
           // flexbox
