@@ -3,12 +3,13 @@ import React from 'react';
 
 export default function Button({
      description,
-     calc
+     calc,
+     style
 }
      
 ) {
      return (
-          <button onClick={calc}>{description}</button>
+          <button className={style} onClick={calc}>{description}</button>
      )
 }
 

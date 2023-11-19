@@ -1,0 +1,67 @@
+*{
+  
+}
+.btn{
+     background-color: whitesmoke;
+     padding : 5px;
+     width: 30px;
+     height: 30px;
+     display : flex;
+     justify-content : center;
+     align-items : center;
+    
+     &.red{
+          background : red;
+          color : white;
+     }
+     &.blue{
+          background : blue;
+          color : white;
+     }
+     &.orange{
+          background : orange;
+          color : white;
+     }
+     
+     .grey{
+          background :grey;
+          color : white;
+     }
+     .green{
+          background : rgb(4, 138, 33);
+          color : black;
+     }
+}
+.catetus{
+     background-color: whitesmoke;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+
+  
+     }
+     .wrap{
+          background-color: whitesmoke;
+          border: 1px solid black;
+          border-radius: 5px;
+          padding: 10px;
+          margin: 10px;
+     }
+     .reset{
+          background-color: whitesmoke;
+          margin: 10px;
+          padding: 10px;
+          width: 60px;
+      
+        
+   
+   
+       
+     }
+     .resetwrap{
+          background-color: whitesmoke;
+          display: flex;
+          justify-content: center;
+     }
+   

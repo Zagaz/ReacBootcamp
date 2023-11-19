@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./Button";
 import { useState } from "react";
+import "./UseState05.css";
 
 // exercise 3
 
@@ -31,10 +32,14 @@ export default function UseState05() {
           <>
                <h1>useState 05</h1>
                <h2>Value + 1 = {count}</h2>
-               <Button description="add"
-                    calc={() => add(addNumber)} />
+               <Button 
+               description="add"
+               style = "bt"
+               calc={() => add(addNumber)} />
                <Button description="sub"
-                    calc={() => sub(-addNumber)} />
+                    calc={() => sub(-addNumber)} 
+                    style = "bt"
+                    />
                <Button description="reset"
                     calc={reset} />
 

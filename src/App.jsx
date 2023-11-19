@@ -1,4 +1,6 @@
 import React from 'react'
+import './App.css'
+
 import UseState01 from './components/UseState01'
 import UseState02 from './components/UseState02'
 import UseState03 from './components/UseState03'
@@ -9,7 +11,7 @@ import UseState06 from './components/UseState06'
 export default function App() {
   return (
     <>
-    Simple useState add/sub/reset
+   
       {/* <UseState01 /> */}
       {/* useState for 2 different variables */}
       {/* <UseState02 /> */}
