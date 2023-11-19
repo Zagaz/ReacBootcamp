@@ -3,7 +3,7 @@
 .btn {
      background-color: whitesmoke;
      padding: 5px;
-     width: 30px;
+     width: 100px;
      height: 30px;
      display: flex;
      justify-content: center;
@@ -31,14 +31,18 @@
           color: rgb(18, 1, 1);
      }
 
-     .grey {
+     &.grey {
           background: grey;
           color: white;
      }
 
-     .green {
+     &.green {
 
           background:  #00ff00;
+          color: black;
+     }
+     &.yellow {
+          background: yellow;
           color: black;
      }
 }
@@ -101,4 +105,16 @@
      background-color: whitesmoke;
      display: flex;
      justify-content: center;
+}
+
+span{
+     &.first{
+          color:green;
+     }
+    &.second{
+          color: orange;
+     }
+     &.third{
+          color:red;
+     }
 }

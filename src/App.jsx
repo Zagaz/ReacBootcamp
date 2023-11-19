@@ -7,7 +7,7 @@ import UseState03 from './components/UseState03'
 import UseState04 from './components/UseState04'
 import UseState05 from './components/UseState05'
 import UseState06 from './components/UseState06'
-
+import UseState07 from './components/UseState07'
 export default function App() {
   return (
     <>
@@ -22,7 +22,9 @@ export default function App() {
       {/* Using a button component to change state on parent | passing a function as a property */}
        {/* <UseState05 />     */}
 
-       <UseState06/>    
+       {/* <UseState06/>     */}
+       <UseState07/>    
+
 
 
     </>
