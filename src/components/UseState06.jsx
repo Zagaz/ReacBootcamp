@@ -65,7 +65,7 @@ export default function UseState06() {
                <div className="wrap">
 
                     <div className="catetus">
-                         <h2> Cathetus A : {a}  </h2>
+                         <h3> Cathetus A : {a}  </h3>
                          <div className="catetusbt">
                               <Cathetus description="-" calc={subA} style="btn red" />
                               <Cathetus description="+" calc={addA} style="btn blue"   />
@@ -77,7 +77,7 @@ export default function UseState06() {
                     <br />
                     <div className="catetus">
 
-                         <h2> Cathetus B : {b}  </h2>
+                         <h3> Cathetus B : {b}  </h3>
                          <div className="catetusbt">
 
                          <Cathetus description="-"

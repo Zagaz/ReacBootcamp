@@ -36,6 +36,7 @@
 
 .catetus {
   display: flex;
+  align-items: flex-end;
 }
 .catetus .catetusbt {
   margin-left: 25px;
