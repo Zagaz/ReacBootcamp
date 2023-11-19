@@ -3,12 +3,13 @@ import React from "react";
 
 export default function Cathetus({
      calc,
-     description
+     description,
+     style
 }) {
      return (
 
           <>
-               <button onClick={calc}>
+               <button onClick={calc} className={style}>
                     {description}
                </button>
 

@@ -40,34 +40,71 @@ export default function UseState06() {
      }
 
 
-     let h = Math.sqrt(a * a + b * b);
-     let sin = a / h;
-     let cos = b / h;
-     let arcsine = Math.asin(sin);
-     let arccosine = Math.acos(cos);
+     let h = Math.sqrt(a * a + b * b).toFixed(2);
+     let sin = (a / h).toFixed(2);
+     let cos = (b / h).toFixed(2);
+     let arcsine = Math.asin(sin).toFixed(3);
+     let arccosine = Math.acos(cos).toFixed(3);
 
      return (
           <>
+         <div className="wrap">
+
                <h1> Trigonometry</h1>
-               <h2> Cathetus A = : {a}  </h2>
-               <h2> Cathetus B = : {b}  </h2>
-               <h2> Hypotenuse = : {h}  </h2>
-               <h2>sine = {sin}</h2>
-               <h2>cosine = {cos}</h2>
-               <h2> Arcsine = {arcsine} deg </h2>
-               <h2> Arccosine = {arccosine} deg </h2>
-               <Cathetus description="addA"
-                    calc={addA} />
-               <Cathetus description="subA"
-                    calc={subA} />
+               <hr />
                <br />
-               <Cathetus description="addB"
-                    calc={addB} />
-               <Cathetus description="subB"
-                    calc={subB} />
+
+               <p><strong>Hypotenuse : </strong>  {h}  </p>
+               <p><strong>Sine : </strong> {sin}</p>
+               <p><strong>Cosine : </strong> {cos}</p>
+               <p><strong>Arcsine : </strong>  {arcsine} deg </p>
+               <p><strong>Arccosine:</strong>  {arccosine} deg </p>
+         </div>
+
+               <div className="wrap">
+
+                    <div className="catetus">
+                         <h2> Cathetus A : {a}  </h2>
+                         <Cathetus description="-"
+                              calc={subA}
+                              style="btn orange" />
+                         <Cathetus description="+"
+                              calc={addA}
+                              style="btn blue"
+                         />
+                    </div>
+
+
+                    <br />
+                    <div className="catetus">
+
+                         <h2> Cathetus B : {b}  </h2>
+                         <Cathetus description="-"
+                              calc={subB}
+                              style="btn orange"
+                         />
+                         <Cathetus description="+"
+                              calc={addB}
+                              style="btn blue"
+                         />
+                         
+                    </div>
+                    <div className="resetwrap">
+
+                    <Cathetus description="RESET"
+                    calc={reset}
+                    style="btn red reset" />
+
+                    </div>
+
+
+
+               </div>
+
+
+
                <br />
-               <Cathetus description="reset"
-                    calc={reset} />
+             
                <br />
           </>
      )
