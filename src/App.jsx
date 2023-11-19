@@ -21,8 +21,10 @@ export default function App() {
       {/* <UseState04 /> */}
       {/* Using a button component to change state on parent | passing a function as a property */}
        {/* <UseState05 />     */}
-
+        {/* Using a button component to change state on parent | passing a function as a property */}
        {/* <UseState06/>     */}
+
+       {/* Spread Operator e.g: const f = {...card} */}
        <UseState07/>    
 
 
