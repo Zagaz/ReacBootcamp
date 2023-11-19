@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Cathetus from "./Cathetus";
+import "./UseState05.css";
 
 // exercise 4
 // DISCLAIMER
@@ -48,52 +49,53 @@ export default function UseState06() {
 
      return (
           <>
-         <div className="wrap">
+               <div className="wrap">
 
-               <h1> Trigonometry</h1>
-               <hr />
-               <br />
+                    <h1> Trigonometry</h1>
+                    <hr />
+                    <br />
 
-               <p><strong>Hypotenuse : </strong>  {h}  </p>
-               <p><strong>Sine : </strong> {sin}</p>
-               <p><strong>Cosine : </strong> {cos}</p>
-               <p><strong>Arcsine : </strong>  {arcsine} deg </p>
-               <p><strong>Arccosine:</strong>  {arccosine} deg </p>
-         </div>
+                    <p><strong>Hypotenuse : </strong>  {h}  </p>
+                    <p><strong>Sine : </strong> {sin}</p>
+                    <p><strong>Cosine : </strong> {cos}</p>
+                    <p><strong>Arcsine : </strong>  {arcsine} deg </p>
+                    <p><strong>Arccosine:</strong>  {arccosine} deg </p>
+               </div>
 
                <div className="wrap">
 
                     <div className="catetus">
                          <h2> Cathetus A : {a}  </h2>
-                         <Cathetus description="-"
-                              calc={subA}
-                              style="btn orange" />
-                         <Cathetus description="+"
-                              calc={addA}
-                              style="btn blue"
-                         />
+                         <div className="catetusbt">
+                              <Cathetus description="-" calc={subA} style="btn red" />
+                              <Cathetus description="+" calc={addA} style="btn blue"   />
+                         </div>
                     </div>
+
 
 
                     <br />
                     <div className="catetus">
 
                          <h2> Cathetus B : {b}  </h2>
+                         <div className="catetusbt">
+
                          <Cathetus description="-"
                               calc={subB}
-                              style="btn orange"
+                              style="btn red"
                          />
                          <Cathetus description="+"
                               calc={addB}
                               style="btn blue"
                          />
-                         
+                              </div>
+
                     </div>
                     <div className="resetwrap">
 
-                    <Cathetus description="RESET"
-                    calc={reset}
-                    style="btn red reset" />
+                         <Cathetus description="RESET"
+                              calc={reset}
+                              style="btn reset" />
 
                     </div>
 
@@ -104,7 +106,7 @@ export default function UseState06() {
 
 
                <br />
-             
+
                <br />
           </>
      )

@@ -7,13 +7,18 @@
   justify-content: center;
   align-items: center;
   font-size: large;
+  margin-right: 10px;
 }
 .btn.red {
-  background: red;
-  color: white;
+  background: #ff9999;
+  color: rgb(40, 7, 71);
+}
+.btn.reset {
+  background: #9c1f1f;
+  color: rgb(255, 255, 255);
 }
 .btn.blue {
-  background: blue;
+  background: #0000ff;
   color: white;
 }
 .btn.orange {
@@ -25,16 +30,18 @@
   color: white;
 }
 .btn .green {
-  background: rgb(4, 138, 33);
+  background: #00ff00;
   color: black;
 }
 
 .catetus {
-  background-color: whitesmoke;
+  display: flex;
+}
+.catetus .catetusbt {
+  margin-left: 25px;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .wrap {
