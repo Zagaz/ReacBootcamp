@@ -1,3 +1,8 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: darkgreen;
+}
+
 .btn {
   background-color: whitesmoke;
   padding: 5px;
@@ -88,4 +93,100 @@ span.second {
 }
 span.third {
   color: red;
+}
+
+.card {
+  border-radius: 5px;
+  background-color: white !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 150px;
+  height: 225px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.card .cardsign {
+  background-color: white !important;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 30px;
+  padding: 10px;
+}
+.card .cardsign .midsuits {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(247, 247, 210);
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap !important;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem !important;
+}
+.card .cardsign .midsuits.red {
+  color: red;
+}
+.card .cardsign .midsuits.black {
+  color: black;
+}
+.card .cardsign.top {
+  display: flex;
+  justify-content: flex-end;
+}
+.card .cardsign.top.red {
+  color: red;
+}
+.card .cardsign.top.black {
+  color: black;
+}
+.card .cardsign.mid {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card .cardsign.bottom {
+  transform: rotate(180deg);
+  display: flex;
+  justify-content: flex-end;
+}
+.card .cardsign.bottom.red {
+  color: red;
+}
+.card .cardsign.bottom.black {
+  color: black;
+}
+
+.displayCards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  align-content: space-between;
+}
+
+.displayCards2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-direction: column;
+}
+
+.cardBT {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid white;
+  border-radius: 5px;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  font-weight: 400;
 }/*# sourceMappingURL=style.css.map */

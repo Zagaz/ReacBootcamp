@@ -1,13 +1,14 @@
 import React from 'react'
 import './App.css'
 
-import UseState01 from './components/UseState01'
-import UseState02 from './components/UseState02'
-import UseState03 from './components/UseState03'
-import UseState04 from './components/UseState04'
-import UseState05 from './components/UseState05'
-import UseState06 from './components/UseState06'
-import UseState07 from './components/UseState07'
+// import UseState01 from './components/UseState01'
+// import UseState02 from './components/UseState02'
+// import UseState03 from './components/UseState03'
+// import UseState04 from './components/UseState04'
+// import UseState05 from './components/UseState05'
+// import UseState06 from './components/UseState06'
+// import UseState07 from './components/UseState07'
+import UseState08 from './components/UseState08'  ;
 export default function App() {
   return (
     <>
@@ -25,7 +26,8 @@ export default function App() {
        {/* <UseState06/>     */}
 
        {/* Spread Operator e.g: const f = {...card} */}
-       <UseState07/>    
+       {/* <UseState07/>     */}
+        <UseState08/>
 
 
 
