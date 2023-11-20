@@ -60,11 +60,14 @@ export default function UseState08() {
       setCard4(d)
     }
   }
-  
+
   return (
 
     <>
-      <h1> Pick a card</h1>
+    <div className="w">
+
+
+      <h1 className="pickACardTitle"> Pick a card</h1>
       <div className="displayCards">
         <div className="displayCards2">
           <Card number={card1.number} suit={card1.suit} color={card1.color} />
@@ -82,6 +85,7 @@ export default function UseState08() {
           <Card number={card4.number} suit={card4.suit} color={card4.color} />
           <button className="cardBT" onClick={() => pickACard("d")} >Click D</button>
         </div>
+      </div>
       </div>
 
      

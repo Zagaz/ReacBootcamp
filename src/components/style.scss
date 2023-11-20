@@ -3,6 +3,19 @@
   font-family:Georgia, 'Times New Roman', Times, serif;
   background-color: darkgreen;
 }
+.w{
+  padding: 20px;
+  display: flex!important;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+align-items: center
+}
+.pickACardTitle{
+  color : white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
 .btn {
      background-color: whitesmoke;
      padding: 5px;
