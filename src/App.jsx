@@ -8,7 +8,8 @@ import './App.css'
 // import UseState05 from './components/UseState05'
 // import UseState06 from './components/UseState06'
 // import UseState07 from './components/UseState07'
-import UseState08 from './components/UseState08'  ;
+// import UseState08 from './components/UseState08'  
+import UseState09 from './components/UseState09'  
 export default function App() {
   return (
     <>
@@ -20,14 +21,17 @@ export default function App() {
       {/* <UseState03 /> */}
       {/* Usinh map to iterate*/}
       {/* <UseState04 /> */}
-      {/* Using a button component to change state on parent | passing a function as a property */}
+      {/* Using a button component to change staate on parent | passing a function as a property */}
        {/* <UseState05 />     */}
         {/* Using a button component to change state on parent | passing a function as a property */}
        {/* <UseState06/>     */}
 
        {/* Spread Operator e.g: const f = {...card} */}
        {/* <UseState07/>     */}
-        <UseState08/>
+        {/* Cards with spread operator */}
+        {/* <UseState08/> */}
+        {/* SElector; */}
+        <UseState09/>
 
 
 
