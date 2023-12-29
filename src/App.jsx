@@ -9,7 +9,9 @@ import './App.css'
 // import UseState06 from './components/UseState06'
 // import UseState07 from './components/UseState07'
 // import UseState08 from './components/UseState08'  
-import UseState09 from './components/UseState09'  
+// import UseState09 from './components/UseState09'  
+// import UseState10 from './components/UseState10'
+import Car from './components/Car'  
 export default function App() {
   return (
     <>
@@ -31,7 +33,10 @@ export default function App() {
         {/* Cards with spread operator */}
         {/* <UseState08/> */}
         {/* SElector; */}
-        <UseState09/>
+        {/* <UseState09/> */}
+
+        {/* <UseState10 /> */}
+        <Car />
 
 
 
