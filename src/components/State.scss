@@ -1,0 +1,16 @@
+.flex{
+  &__hor{
+    padding : 20px;
+    background-color: rgb(179, 26, 26);
+     display: flex;
+     background-color: rgb(255, 244, 244);
+     flex-direction: row;
+     flex-wrap: wrap;
+   }
+   &__ver{
+     background-color: blue;
+     flex-direction: column;
+   }
+}
+   
+  
