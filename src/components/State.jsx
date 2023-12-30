@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
-import Button from "./Button";
-
 import "./State.scss";
 
 
@@ -23,7 +21,6 @@ function State() {
           <>
                <br />
                <h1>UseState Hook</h1>
-
                <h2>Count: {resourceType}</h2>
                <div className="flex__hor">
                     <button className="btn btn-secondary"
@@ -35,45 +32,38 @@ function State() {
                     <button className="btn btn-secondary"
                          onClick={() => setResourceType("comments")}
                     >Comments</button>
-
-
-
                </div>
                <hr />
                {items.map(item => {
-                    //Title and body for posts
-                  if (resourceType === "posts"){
-                           return (
-                               <>
-                                   <h1 className="title">{item.title}</h1>
-                                   <div>{item.body}</div>
-                                   <br />
-                               </>
-                           )
-                  }
-                  if (resourceType === "users"){
-                           return (
-                               <>
-                                   <h1 className="title">{item.name}</h1>
-                                   <div>{item.email}</div>
-                                   <br />
-                               </>
-                           )
-                  }
-
-                    if (resourceType === "comments"){
-                              return (
-                                    <>
-                                     <h1 className="title">{item.name}</h1>
-                                     <div>{item.email}</div>
-                                     <br />
-                                    </>
-                              )
-                    }    
-                  
-                  
                    
-                    
+                   // use a switch statement to render the correct data
+
+                    switch (resourceType) {
+                         case "posts":
+                              return (
+                                   <div key={item.id}>
+                                        <h3>{item.title}</h3>
+                                        <p>{item.body}</p>
+                                   </div>
+                              )
+                         case "users":
+                              return (
+                                   <div key={item.id}>
+                                        <h3>{item.name}</h3>
+                                        <p>{item.email}</p>
+                                   </div>
+                              )
+                         case "comments":
+                              return (
+                                   <div key={item.id}>
+                                        <h3>{item.name}</h3>
+                                        <p>{item.body}</p>
+                                   </div>
+                              )
+                         default:
+                              return "posts";
+                    }
+             
                }
                )}
           </>
